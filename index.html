@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Form Validation</h1>
+  <section>
+    <h2>Contact Us</h2>
+    <p>Get in touch with us using this handy form</p>
+    <form action="/">
+      <fieldset>
+          <div><label for="uName">Full Name</label><input name="uName" type="text" placeholder="Joe Bloggs" required></div>
+          <div><label for="uEmail">Email Address</label><input name="uEmail" type="email" placeholder="joe@joebloggs.com" required></div>
+          <div><label for="uPhone">Phone Number</label><input name="uPhone" type="tel" placeholder="0161 016 1016"></div>
+          <div><label for="uMsg">Message</label><textarea name="uMsg" type="phone" placeholder="This is a message"></textarea></div>
+          <div>
+              <input class="button" type="submit" value="Submit">
+              <input class="button" type="reset" value="Reset">
+          </div>
+      </fieldset>
+    </form>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
